@@ -1,0 +1,1111 @@
+Document file - DO NOT EDIT
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_AR
+arsimpc
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_ARCHIVE
+$(PRJ_DIR)/SIMNTgnu/VXWorks-Doom.a
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_AS
+ccsimpc
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_CC
+ccsimpc
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_CC_ARCH_SPEC
+-mpentium
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_CFLAGS
+-g \
+	-mpentium \
+	-ansi \
+	-fno-builtin \
+	-fno-defer-pop \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=SIMNT \
+	-DTOOL_FAMILY=gnu \
+	-DTOOL=gnu
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_CFLAGS_AS
+-g \
+	-mpentium \
+	-ansi \
+	-fno-builtin \
+	-fno-defer-pop \
+	-P \
+	-xassembler-with-cpp \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=SIMNT \
+	-DTOOL_FAMILY=gnu \
+	-DTOOL=gnu
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_CPP
+ccsimpc -E -P
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_HEX_FLAGS
+
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_LD
+ldsimpc
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_LDFLAGS
+--subsystem=windows
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_LD_PARTIAL
+ccsimpc -r -nostdlib
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_LD_PARTIAL_FLAGS
+-r
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_NM
+nmsimpc -g
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_OPTION_DEFINE_MACRO
+-D
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_OPTION_DEPEND
+-M -w
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_OPTION_GENERATE_DEPENDENCY_FILE
+-MD
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_OPTION_INCLUDE_DIR
+-I
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_OPTION_LANG_C
+-xc
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_OPTION_UNDEFINE_MACRO
+-U
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_SIZE
+sizesimpc
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_MACRO_TOOL_FAMILY
+gnu
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_RO_DEPEND_PATH
+{$(WIND_BASE)/target/h/} \
+	{$(WIND_BASE)/target/src/} \
+	{$(WIND_BASE)/target/config/}
+<END>
+
+<BEGIN> BUILD_SIMNTgnu_TC
+::tc_SIMNTgnu
+<END>
+
+<BEGIN> BUILD__CURRENT
+SIMNTgnu
+<END>
+
+<BEGIN> BUILD__LIST
+SIMNTgnu
+<END>
+
+<BEGIN> CORE_INFO_TYPE
+::prj_vxApp
+<END>
+
+<BEGIN> CORE_INFO_VERSION
+2.2
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_englsh.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_event.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_french.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_items.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_items.c_dependencies
+c:/linuxdoom/info.h \
+	c:/linuxdoom/d_think.h \
+	c:/linuxdoom/d_items.h \
+	c:/linuxdoom/doomdef.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stddef.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stdarg.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_items.c_objects
+d_items.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_items.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_items.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_main.c_objects
+d_main.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_main.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_main.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_net.c_objects
+d_net.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_net.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_net.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_player.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_textur.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_think.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/d_ticcmd.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomdata.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomdef.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomdef.c_dependencies
+c:/linuxdoom/doomdef.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stddef.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stdarg.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomdef.c_objects
+doomdef.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomdef.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomdef.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomstat.c_objects
+doomstat.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomstat.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomstat.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/doomtype.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/dstrings.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/dstrings.c_dependencies
+c:/linuxdoom/dstrings.h c:/linuxdoom/d_englsh.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/dstrings.c_objects
+dstrings.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/dstrings.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/dstrings.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/f_finale.c_objects
+f_finale.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/f_finale.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/f_finale.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/f_wipe.c_objects
+f_wipe.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/f_wipe.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/f_wipe.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/g_game.c_objects
+g_game.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/g_game.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/g_game.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/hu_lib.c_objects
+hu_lib.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/hu_lib.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/hu_lib.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/hu_stuff.c_objects
+hu_stuff.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/hu_stuff.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/hu_stuff.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_main.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_main.c_dependencies
+c:/linuxdoom/doomdef.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stddef.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stdarg.h \
+	c:/linuxdoom/m_argv.h \
+	c:/linuxdoom/d_main.h \
+	c:/linuxdoom/d_event.h \
+	c:/linuxdoom/doomtype.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_main.c_objects
+i_main.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_main.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_net.c_objects
+i_net.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_net.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_net.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_sound.c_objects
+i_sound.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_sound.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_sound.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_system.c_objects
+i_system.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_system.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_system.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_video.c_objects
+i_video.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_video.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/i_video.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/info.c_objects
+info.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/info.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/info.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_argv.c_objects
+m_argv.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_argv.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_argv.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_bbox.c_objects
+m_bbox.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_bbox.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_bbox.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_cheat.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_cheat.c_dependencies
+c:/linuxdoom/m_cheat.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_cheat.c_objects
+m_cheat.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_cheat.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_cheat.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_fixed.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_fixed.c_dependencies
+$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stddef.h \
+	c:/linuxdoom/doomtype.h \
+	c:/linuxdoom/i_system.h \
+	c:/linuxdoom/d_ticcmd.h \
+	c:/linuxdoom/d_event.h \
+	c:/linuxdoom/m_fixed.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_fixed.c_objects
+m_fixed.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_fixed.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_fixed.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_menu.c_objects
+m_menu.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_menu.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_menu.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_misc.c_objects
+m_misc.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_misc.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_misc.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_random.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_random.c_dependencies
+
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_random.c_objects
+m_random.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_random.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_random.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_swap.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_swap.c_dependencies
+c:/linuxdoom/m_swap.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_swap.c_objects
+m_swap.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_swap.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/m_swap.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_ceilng.c_objects
+p_ceilng.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_ceilng.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_doors.c_objects
+p_doors.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_doors.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_enemy.c_objects
+p_enemy.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_enemy.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_floor.c_objects
+p_floor.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_floor.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_inter.c_objects
+p_inter.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_inter.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_inter.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_lights.c_objects
+p_lights.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_lights.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_local.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_map.c_objects
+p_map.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_map.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_maputl.c_objects
+p_maputl.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_maputl.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_mobj.c_objects
+p_mobj.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_mobj.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_mobj.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_plats.c_objects
+p_plats.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_plats.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_pspr.c_objects
+p_pspr.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_pspr.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_pspr.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_saveg.c_objects
+p_saveg.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_saveg.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_saveg.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_setup.c_objects
+p_setup.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_setup.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_setup.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_sight.c_objects
+p_sight.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_sight.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_spec.c_objects
+p_spec.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_spec.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_spec.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_switch.c_objects
+p_switch.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_switch.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_telept.c_objects
+p_telept.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_telept.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_tick.c_objects
+p_tick.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_tick.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_tick.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_user.c_objects
+p_user.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/p_user.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_bsp.c_objects
+r_bsp.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_bsp.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_bsp.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_data.c_objects
+r_data.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_data.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_data.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_defs.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_draw.c_objects
+r_draw.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_draw.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_draw.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_local.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_main.c_objects
+r_main.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_main.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_main.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_plane.c_objects
+r_plane.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_plane.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_plane.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_segs.c_objects
+r_segs.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_segs.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_segs.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_sky.c_objects
+r_sky.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_sky.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_sky.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_state.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_things.c_objects
+r_things.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_things.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/r_things.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/s_sound.c_objects
+s_sound.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/s_sound.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/s_sound.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/sounds.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/sounds.c_dependencies
+c:/linuxdoom/doomtype.h c:/linuxdoom/sounds.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/sounds.c_objects
+sounds.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/sounds.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/sounds.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/st_lib.c_objects
+st_lib.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/st_lib.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/st_lib.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/st_stuff.c_objects
+st_stuff.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/st_stuff.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/st_stuff.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/tables.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/tables.c_dependencies
+c:/linuxdoom/tables.h c:/linuxdoom/m_fixed.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/tables.c_objects
+tables.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/tables.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/tables.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/v_video.c_objects
+v_video.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/v_video.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/v_video.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/w_wad.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/w_wad.c_dependencies
+c:/linuxdoom/doomtype.h \
+	c:/linuxdoom/m_swap.h \
+	c:/linuxdoom/i_system.h \
+	c:/linuxdoom/d_ticcmd.h \
+	c:/linuxdoom/d_event.h \
+	c:/linuxdoom/z_zone.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stddef.h \
+	$(WIND_BASE)/host/$(WIND_HOST_TYPE)/lib/gcc-lib/i386-pc-mingw32/gcc-2.96/include/stdarg.h \
+	c:/linuxdoom/w_wad.h
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/w_wad.c_objects
+w_wad.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/w_wad.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/w_wad.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/wi_stuff.c_objects
+wi_stuff.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/wi_stuff.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/wi_stuff.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/z_zone.c_objects
+z_zone.o
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/z_zone.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/linuxdoom/z_zone.h_dependDone
+TRUE
+<END>
+
+<BEGIN> PROJECT_FILES
+C:/linuxdoom/d_englsh.h \
+	C:/linuxdoom/d_event.h \
+	C:/linuxdoom/d_french.h \
+	C:/linuxdoom/d_items.h \
+	C:/linuxdoom/d_main.h \
+	C:/linuxdoom/d_net.h \
+	C:/linuxdoom/d_player.h \
+	C:/linuxdoom/d_textur.h \
+	C:/linuxdoom/d_think.h \
+	C:/linuxdoom/d_ticcmd.h \
+	C:/linuxdoom/doomdata.h \
+	C:/linuxdoom/doomdef.h \
+	C:/linuxdoom/doomstat.h \
+	C:/linuxdoom/doomtype.h \
+	C:/linuxdoom/dstrings.h \
+	C:/linuxdoom/f_finale.h \
+	C:/linuxdoom/f_wipe.h \
+	C:/linuxdoom/g_game.h \
+	C:/linuxdoom/hu_lib.h \
+	C:/linuxdoom/hu_stuff.h \
+	C:/linuxdoom/i_net.h \
+	C:/linuxdoom/i_sound.h \
+	C:/linuxdoom/i_system.h \
+	C:/linuxdoom/i_video.h \
+	C:/linuxdoom/info.h \
+	C:/linuxdoom/m_argv.h \
+	C:/linuxdoom/m_bbox.h \
+	C:/linuxdoom/m_cheat.h \
+	C:/linuxdoom/m_fixed.h \
+	C:/linuxdoom/m_menu.h \
+	C:/linuxdoom/m_misc.h \
+	C:/linuxdoom/m_random.h \
+	C:/linuxdoom/m_swap.h \
+	C:/linuxdoom/p_inter.h \
+	C:/linuxdoom/p_local.h \
+	C:/linuxdoom/p_mobj.h \
+	C:/linuxdoom/p_pspr.h \
+	C:/linuxdoom/p_saveg.h \
+	C:/linuxdoom/p_setup.h \
+	C:/linuxdoom/p_spec.h \
+	C:/linuxdoom/p_tick.h \
+	C:/linuxdoom/r_bsp.h \
+	C:/linuxdoom/r_data.h \
+	C:/linuxdoom/r_defs.h \
+	C:/linuxdoom/r_draw.h \
+	C:/linuxdoom/r_local.h \
+	C:/linuxdoom/r_main.h \
+	C:/linuxdoom/r_plane.h \
+	C:/linuxdoom/r_segs.h \
+	C:/linuxdoom/r_sky.h \
+	C:/linuxdoom/r_state.h \
+	C:/linuxdoom/r_things.h \
+	C:/linuxdoom/s_sound.h \
+	C:/linuxdoom/sounds.h \
+	C:/linuxdoom/st_lib.h \
+	C:/linuxdoom/st_stuff.h \
+	C:/linuxdoom/tables.h \
+	C:/linuxdoom/v_video.h \
+	C:/linuxdoom/w_wad.h \
+	C:/linuxdoom/wi_stuff.h \
+	C:/linuxdoom/z_zone.h \
+	C:/linuxdoom/d_items.c \
+	C:/linuxdoom/d_main.c \
+	C:/linuxdoom/d_net.c \
+	C:/linuxdoom/doomdef.c \
+	C:/linuxdoom/doomstat.c \
+	C:/linuxdoom/dstrings.c \
+	C:/linuxdoom/f_finale.c \
+	C:/linuxdoom/f_wipe.c \
+	C:/linuxdoom/g_game.c \
+	C:/linuxdoom/hu_lib.c \
+	C:/linuxdoom/hu_stuff.c \
+	C:/linuxdoom/i_main.c \
+	C:/linuxdoom/i_net.c \
+	C:/linuxdoom/i_sound.c \
+	C:/linuxdoom/i_system.c \
+	C:/linuxdoom/i_video.c \
+	C:/linuxdoom/info.c \
+	C:/linuxdoom/m_argv.c \
+	C:/linuxdoom/m_bbox.c \
+	C:/linuxdoom/m_cheat.c \
+	C:/linuxdoom/m_fixed.c \
+	C:/linuxdoom/m_menu.c \
+	C:/linuxdoom/m_misc.c \
+	C:/linuxdoom/m_random.c \
+	C:/linuxdoom/m_swap.c \
+	C:/linuxdoom/p_ceilng.c \
+	C:/linuxdoom/p_doors.c \
+	C:/linuxdoom/p_enemy.c \
+	C:/linuxdoom/p_floor.c \
+	C:/linuxdoom/p_inter.c \
+	C:/linuxdoom/p_lights.c \
+	C:/linuxdoom/p_map.c \
+	C:/linuxdoom/p_maputl.c \
+	C:/linuxdoom/p_mobj.c \
+	C:/linuxdoom/p_plats.c \
+	C:/linuxdoom/p_pspr.c \
+	C:/linuxdoom/p_saveg.c \
+	C:/linuxdoom/p_setup.c \
+	C:/linuxdoom/p_sight.c \
+	C:/linuxdoom/p_spec.c \
+	C:/linuxdoom/p_switch.c \
+	C:/linuxdoom/p_telept.c \
+	C:/linuxdoom/p_tick.c \
+	C:/linuxdoom/p_user.c \
+	C:/linuxdoom/r_bsp.c \
+	C:/linuxdoom/r_data.c \
+	C:/linuxdoom/r_draw.c \
+	C:/linuxdoom/r_main.c \
+	C:/linuxdoom/r_plane.c \
+	C:/linuxdoom/r_segs.c \
+	C:/linuxdoom/r_sky.c \
+	C:/linuxdoom/r_things.c \
+	C:/linuxdoom/s_sound.c \
+	C:/linuxdoom/sounds.c \
+	C:/linuxdoom/st_lib.c \
+	C:/linuxdoom/st_stuff.c \
+	C:/linuxdoom/tables.c \
+	C:/linuxdoom/v_video.c \
+	C:/linuxdoom/w_wad.c \
+	C:/linuxdoom/wi_stuff.c \
+	C:/linuxdoom/z_zone.c
+<END>
+
+<BEGIN> userComments
+<Enter description here>
+<END>
+
